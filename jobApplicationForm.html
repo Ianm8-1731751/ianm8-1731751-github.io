@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Job Application</title>
+			<link rel = "stylesheet" href="jobFormCss.css">
+	</head>
+	<body>
+	<div class = "container">
+	
+		<h2>Job Application</h2>
+		<button id = "buttoner" type = "button" onclick="alert('Welcome to your next journey in life!')">Hello.</button>
+		<form action="form.php" method="POST">
+			<fieldset class = "form-container">
+		
+				<Legend>Create an Account</legend>
+			
+				<div class = "form-Elements">
+					<label class="parameter-ask"> Email </label>
+					<div class = "parameter-fill">
+						<input class = "form-style" type = "text" name = "email">
+					</div>
+				</div>
+				
+				<div class = "form-Elements">
+					<label class="parameter-ask"> Confirm Email </label>
+					<div class = "parameter-fill">
+						<input class = "form-style" type = "text" name = "email-repeated">
+					</div>
+				</div>
+				
+				<div class = "form-Elements">
+					<label class="parameter-ask"> Password </label>
+					<div class = "parameter-fill">
+						<input class = "form-style" type = "password" name = "password">
+					</div>
+				</div>
+				
+				<div class = "form-Elements">
+					<label class="parameter-ask"> Confirm Password </label>
+					<div class = "parameter-fill">
+						<input class = "form-style" type = "password" name = "password-repeated">
+					</div>
+				</div>
+			</fieldset>
+			
+			<fieldset class = "form-container">
+		
+				<Legend>Account Details</legend>
+			
+				<div class = "form-Elements">
+					<label class="parameter-ask"> First Name </label>
+					<div class = "parameter-fill">
+						<input class = "form-style" type = "text" name = "first-name">
+					</div>
+				</div>
+				
+				<div class = "form-Elements">
+					<label class="parameter-ask"> Last Name </label>
+					<div class = "parameter-fill">
+						<input class = "form-style" type = "text" name = "last-name">
+					</div>
+				</div>
+				
+				<div class = "form-Elements">
+					<label class="parameter-ask"> Street Address </label>
+					<div class = "parameter-fill">
+						<input class = "form-style" type = "text" name = "address">
+					</div>
+				</div>
+				
+				<div class = "form-Elements">
+					<label class="parameter-ask"> City </label>
+					<div class = "parameter-fill">
+						<input class = "form-style" type = "text" name = "city">
+					</div>
+				</div>
+				
+				<div class = "form-Elements">
+					<label class="parameter-ask"> State </label>
+					<div class = "parameter-fill">
+						<select class = "form-style" name = "state">
+							<option value="" selected="true">Choose a State</option>
+							<option value="AL">Alabama</option>
+							<option value="AK">Alaska</option>
+							<option value="AZ">Arizona</option>
+							<option value="AR">Arkansas</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DE">Delaware</option>
+							<option value="DC">District of Columbia</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="IA">Iowa</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="ME">Maine</option>
+							<option value="MD">Maryland</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MS">Mississippi</option>
+							<option value="MO">Missouri</option>
+							<option value="MT">Montana</option>
+							<option value="NE">Nebraska</option>
+							<option value="NV">Nevada</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NY">New York</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VT">Vermont</option>
+							<option value="VA">Virginia</option>
+							<option value="WA">Washington</option>
+							<option value="WV">West Virginia</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WY">Wyoming</option>
+						</select>
+					</div>
+				</div>
+					
+					<div class = "form-Elements">
+						<label class="parameter-ask"> Postal Code </label>
+						<div class = "parameter-fill">
+							<input class = "form-style" type = "text" name = "postcode">
+						</div>
+					</div>
+				
+			</fieldset>
+			
+			<fieldset>
+				<legend>Compliance</legend>
+				<div class = "form-Elements">
+					<label class="parameter-ask"> Have you or a close relative ever worked in a Government regulated environment (DOL, IRS, SEC, etc.)? </label> <br>
+					<div class = "parameter-fill">
+						<div class="radio">
+							<label>
+								<input type = "radio" name = "previouswork" value="yes"> Yes
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type = "radio" name = "previouswork" value="no"> No
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type = "radio" name = "previouswork" value="unsure"> Unsure
+							</label>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "form-Elements">
+					<label class="parameter-ask"> Are you currently a US Citizen?</label>
+					<div class = "parameter-fill">
+						<div class="radio">
+							<label>
+								<input type = "radio" name = "citizenship" value="yes"> Yes
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type = "radio" name = "citizenship" value="no"> No
+							</label>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Job Specific Questions</legend>
+				<div class = "form-Elements">
+					<label class="parameter-ask"> Which Position are you applying for?</label> <br>
+					<div class = "parameter-fill">
+						<div class="radio">
+							<label>
+								<input type = "radio" name = "jposition" value="research-a"> Research Analyst
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type = "radio" name = "jposition" value="price-a"> Price Analyst
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type = "radio" name = "jposition" value="researcher"> Researcher
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type = "radio" name = "jposition" value="accmanage"> Account Manager
+							</label>
+						</div>
+					</div>
+					
+					<label class="parameter-ask"> What type of position are you looking for? (Check all that apply)</label> <br>
+					<div class "parameter-fill">
+						<div class = "checkbox">
+							<label>
+								<input type ="checkbox" name = "part-time" value = "parttime"> Part Time
+							</label>
+						</div>
+						
+						<div class = "checkbox">
+							<label>
+								<input type = "checkbox" name = "full-time" value = "fulltime"> Full Time
+							</label>
+						</div>
+						
+						<div class = "checkbox">
+							<label>
+								<input type = "checkbox" name = "contractor" value = "contract"> Contractor
+							</label>
+						</div>
+						
+						<div class = "checkbox">
+							<label>
+								<input type = "checkbox" name = "temporary" value = "tempwork"> Temporary Worker
+							</label>
+						</div>
+					</div>
+					
+					<label class="parameter-ask">Hours and Days Available</label>
+					<div class = "form-Elements">
+						<table class = "table">
+							<tr>
+								<td></td>
+								<th>Sun</th>
+								<th>Mon</th>
+								<th>Tue</th>
+								<th>Wed</th>
+								<th>Thu</th>
+								<th>Fri</th>
+								<th>Sat</th>
+							</tr>
+							<tr>
+								<th>From</th>
+								<td><input class = "form-Elements" type = "time" name = "sunfrom"></td>
+								<td><input class = "form-Elements" type = "time" name = "mofrom"></td>
+								<td><input class = "form-Elements" type = "time" name = "tufrom"></td>
+								<td><input class = "form-Elements" type = "time" name = "wedfrom"></td>
+								<td><input class = "form-Elements" type = "time" name = "thursfrom"></td>
+								<td><input class = "form-Elements" type = "time" name = "frifrom"></td>
+								<td><input class = "form-Elements" type = "time" name = "satfrom"></td>
+							</tr>
+							<tr>
+								<th>Until</th>
+								<td><input class = "form-Elements" type = "time" name = "sununtil"></td>
+								<td><input class = "form-Elements" type = "time" name = "mountil"></td>
+								<td><input class = "form-Elements" type = "time" name = "tuuntil"></td>
+								<td><input class = "form-Elements" type = "time" name = "weduntil"></td>
+								<td><input class = "form-Elements" type = "time" name = "thursuntil"></td>
+								<td><input class = "form-Elements" type = "time" name = "friuntil"></td>
+								<td><input class = "form-Elements" type = "time" name = "satuntil"></td>
+							</tr>
+						</table>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Personal Statement</legend>
+				<div class = "form-Elements">
+					<label class = "label-Elements">Why are you the best candidate for this position? </label> <br>
+					<textarea class = "parameter-fill" name = "whybest" rows = "10"> </textarea>
+				</div>
+				<div class = "form-Elements">
+					<label class = "label-Elements">What hobbies and interests outside of work do you have? </label> <br>
+					<textarea class = "parameter-fill" name  = "hobbies" rows = "10"> </textarea>
+				</div>
+			</fieldset>
+			
+			<input id = "buttoner" class = "button" type = "submit" value = "Submit Form">
+			
+		</form>
+	</div>
+	
+	<div class = "images">
+		<div id = "pic">
+			<img src = "iconform.jpg" width="50px" height="50px">
+		</div>
+	</div>
+	</body>
+</html>
